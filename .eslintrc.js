@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 module.exports = {
     "env": {
         "browser": true,
@@ -9,12 +8,11 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
         "project": [
             "tsconfig.json"
         ]
@@ -24,6 +22,8 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        "no-unused-vars": ["error", { "varsIgnorePattern": "^_"}],
+        "no-unused-vars": ["error", {
+            "varsIgnorePattern": "^_"
+        }]
     }
 }

@@ -1,0 +1,13 @@
+.root {
+  padding: 32px;
+  display: flex;
+  gap: 10vw;
+  justify-content: center;
+  height: calc(100vh - 160px);
+  align-items: center;
+}
+
+.image {
+  width: fit-content;
+  height: fit-content;
+}
